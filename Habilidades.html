@@ -1,0 +1,99 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades e Projetos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #d8d8d8;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .coluna {
+            width: 45%;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .coluna h2 {
+            text-align: center;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .foto1 {
+            /* border: 5px solid #000; */
+            max-width: 80px; /* Largura máxima da foto */
+            height: auto; /* Altura automática */
+            margin-right: 20px; /*Espaço entre a foto e o texto*/
+        }
+        .foto2 {
+            /* border: 5px solid #000; */
+            max-width: 80px; /* Largura máxima da foto */
+            height: auto; /* Altura automática */
+            margin-right: 10px; /*Espaço entre a foto e o texto*/
+        }
+        .foto3 {
+            /* border: 5px solid #000; */
+            max-width: 150px; /* Largura máxima da foto */
+            height: auto; /* Altura automática */
+            margin-right: 10px; /*Espaço entre a foto e o texto*/
+        }
+        .texto li {
+            font-size: 18px; /* Tamanho da fonte dos tópicos */
+            line-height: 1.6; /* Espaçamento entre as linhas */
+            margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+        }
+    </style>
+</head>
+<body>
+    <h1>Habilidades e Projetos</h1>
+
+    <div class="container">
+        <!-- Coluna de Habilidades -->
+        <div class="coluna">
+            <h2>Habilidades</h2>
+            <div class="texto">
+                <li>Design de interfaces</li>
+                <li>Desenvolvimento Web</li>
+                <li>Análise de dados</li>
+                <li>Prototipagem com Figma</li>
+            </div>
+            <img class="foto1" src="python.png" alt="Habilidades">
+            <img class="foto2" src="figma.png" alt="Habilidades">
+            <img class="foto3" src="Streamlit.png" alt="Habilidades">
+            <img class="foto3" src="html e css.png" alt="Habilidades">
+        </div>
+
+        <!-- Coluna de Projetos -->
+        <div class="coluna">
+            <h2>Projetos</h2>
+            <div class="texto">
+                <li>Protótipo no Figma de um app de compra de ingresso de futebol:
+                    <a href="https://www.figma.com/proto/perjDp03rbWQhil8kafR8n/Site-de-comprar-de-ingressos-para-Futebol?node-id=48-12&starting-point-node-id=48%3A12"
+                    target="_blank">FutTickets</a></li>
+            <li>Protótipo no Figma de app de combate à fome:
+                    <a href="https://www.figma.com/proto/perjDp03rbWQhil8kafR8n/Site-de-comprar-de-ingressos-para-Futebol?node-id=48-12&starting-point-node-id=48%3A12"
+                    target="_blank">ConectaOng's</a></li>
+            <li>Análise de dados com StreamLit:
+                <a href="https://github.com/GErnandes/Analise-de-dados-com-Streamlit"
+                target="_blank">Análise do FIFA 23</a></li>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
