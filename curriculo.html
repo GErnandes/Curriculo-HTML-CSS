@@ -45,13 +45,32 @@
         a:hover {
             text-decoration: underline;
         }
+        .info-item i {
+            margin-right: 10px;
+            color: #007bff;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .skills li, .projects li {
+            display: flex;
+            align-items: center;
+        }
+        .skills li::before {
+            content: "•";
+            color: #007bff;
+            margin-right: 10px;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
-
 <div class="container mt-5">
     <div class="text-center">
-        <img src="imagens/fotoErnandes.jpg" alt="Gabriel Ernandes" class="profile-img">
+        <img src="imagens/foto curriculo.JPG" alt="Gabriel Ernandes" class="profile-img">
         <h1>Gabriel Ernandes Neves</h1>
         <h5>Estudante de Análise e Desenvolvimento de Sistemas</h5>
     </div>
@@ -89,12 +108,14 @@
         <li>Protótipo no Figma de um app de compra de ingressos de futebol: <a href="https://www.figma.com/proto/perjDp03rbWQhil8kafR8n/Site-de-comprar-de-ingressos-para-Futebol?node-id=48-12&starting-point-node-id=48%3A12" target="_blank">FutTickets</a></li>
         <li>Protótipo no Figma de app de combate à fome: <a href="https://www.figma.com/proto/perjDp03rbWQhil8kafR8n/Site-de-comprar-de-ingressos-para-Futebol?node-id=48-12&starting-point-node-id=48%3A12" target="_blank">ConectaOng's</a></li>
         <li>Análise de dados com Streamlit: <a href="https://github.com/GErnandes/Analise-de-dados-com-Streamlit" target="_blank">Análise do FIFA 23</a></li>
+        <li>Análise de dados de uma loja com Streamlit: <a href="https://github.com/GErnandes/Analise-de-dados-Loja" target="_blank">Análise de dados (Loja)</a></li>
     </ul>
 
     <div class="section-title">
         <h3>Contatos</h3>
     </div>
-    <p><i class="fas fa-envelope"></i> Email: gabrielernandes155@gmail.com</p>
+    <ul><li><i class="fas fa-envelope"></i> Email: gabrielernandes155@gmail.com</li>
+    </ul>
 
     <div class="section-title">
         <h3>Links</h3>
@@ -115,4 +136,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
 
