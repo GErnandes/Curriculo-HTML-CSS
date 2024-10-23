@@ -1,118 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/icone para curriculo.png" type="image/x-icon">
-    <title>Currículo Gabriel Ernandes</title>
+    <title>Currículo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
+            background-color: #f8f9fa;
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
         }
-
-        h1 {
-            color: #000000;
-            font-size: 2.5em;
+        .profile-img {
+            width: 350px;
+            height: 350px;
+            border-radius: 30%;
+            object-fit: cover;
+            border: 5px solid #343a40;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-
-        p {
-            color: #555;
-            font-size: 1.1em;
-            max-width: 900px;
-            margin: 0 auto;
+        .section-title {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #343a40;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
         }
-
-        /* Navegação estilizada */
-        .nav {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .nav a {
-            margin: 0 15px;
-            padding: 10px 20px;
-            text-decoration: none;
-            background-color: #007BFF;
-            color: #fff;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .nav a:hover {
-            background-color: #0056b3;
-        }
-
-        iframe {
-            display: block;
-            margin: 20px auto;
-            border: 1px solid #ccc;
-            width: 80%;
-            height: 600px;
-            transition: all 0.3s ease-in-out;
-        }
-
-        iframe:hover {
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Estilo do rodapé */
         footer {
-            text-align: center;
             margin-top: 50px;
             padding: 20px;
-            background-color: #3b9aff;
+            background-color: #343a40;
             color: white;
+            text-align: center;
         }
-
-        footer a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
+        .container {
+            padding: 30px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-
-        footer a:hover {
+        a {
+            color: #007bff;
+        }
+        a:hover {
             text-decoration: underline;
-        }
-
-        /* Tornando responsivo */
-        @media (max-width: 768px) {
-            iframe {
-                width: 100%;
-                height: 400px;
-            }
-
-            .nav a {
-                display: block;
-                margin: 10px auto;
-                width: 80%;
-            }
         }
     </style>
 </head>
 <body>
-    <div style="text-align: center; margin-bottom:30px;" >
-        <h1>Bem-vindo ao meu Currículo</h1>
-        <p>Olá! Sou Gabriel Ernandes Neves, um estudante apaixonado por Análise e Desenvolvimento de Sistemas. <br> 
-            Este espaço é dedicado a apresentar minhas habilidades, experiências e projetos.
-            Espero que você encontre informações úteis sobre minha trajetória profissional e acadêmica.
-            <br>Aqui embaixo estão os iframes com minhas informações, sinta-se à vontade para navegar!</p>
+
+<div class="container mt-5">
+    <div class="text-center">
+        <img src="imagens/fotoErnandes.jpg" alt="Gabriel Ernandes" class="profile-img">
+        <h1>Gabriel Ernandes Neves</h1>
+        <h5>Estudante de Análise e Desenvolvimento de Sistemas</h5>
     </div>
 
-    <div class="nav">
-        <a href="Sobre.html" target="main">Sobre mim</a>
-        <a href="Formação.html" target="main">Formação</a>
-        <a href="Habilidades.html" target="main">Habilidades e Projetos</a>
-        <a href="Contato.html" target="main">Contato e Links</a>
+    <div class="section-title">
+        <h3>Sobre Mim</h3>
     </div>
+    <p>Tenho 19 anos e iniciei meus estudos no mundo da tecnologia em 2019, quando comecei a aprender programação no Ensino Médio. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, onde adquiri uma sólida formação teórica e prática na criação de soluções tecnológicas. Estou em busca de uma oportunidade para aplicar e expandir meus conhecimentos em programação, desenvolvimento de software e análise de sistemas em um ambiente desafiador e inovador.</p>
 
-    <!-- Iframe para exibir as páginas -->
-    <iframe src="Sobre.html" name="main"></iframe>
+    <div class="section-title">
+        <h3>Formação</h3>
+    </div>
+    <ul>
+        <li>Curso Técnico em Desenvolvimento de Sistemas - ETE Miguel Batista (2019-2021)</li>
+        <li>Graduação incompleta em Educação Física - UPE (2022-2023)</li>
+        <li>Graduação em Tecnologia em Análise e Desenvolvimento de Sistemas - SENAC (2024-2026)</li>
+        <li>Curso Lógica de programação: mergulhe em programação com JavaScript - Alura</li>
+        <li>Curso Lógica de programação: explore funções e listas - Alura</li>
+    </ul>
 
-    <footer>
-        <p>&copy; 2024 Gabriel Ernandes Neves | <a href="https://github.com/GErnandes" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/gabriel-ernandes" target="_blank">LinkedIn</a></p>
-    </footer>
+    <div class="section-title">
+        <h3>Habilidades</h3>
+    </div>
+    <ul>
+        <li>Design de interfaces</li>
+        <li>Desenvolvimento Web</li>
+        <li>Análise de dados</li>
+        <li>Prototipagem com Figma</li>
+    </ul>
+
+    <div class="section-title">
+        <h3>Projetos</h3>
+    </div>
+    <ul>
+        <li>Protótipo no Figma de um app de compra de ingressos de futebol: <a href="https://www.figma.com/proto/perjDp03rbWQhil8kafR8n/Site-de-comprar-de-ingressos-para-Futebol?node-id=48-12&starting-point-node-id=48%3A12" target="_blank">FutTickets</a></li>
+        <li>Protótipo no Figma de app de combate à fome: <a href="https://www.figma.com/proto/perjDp03rbWQhil8kafR8n/Site-de-comprar-de-ingressos-para-Futebol?node-id=48-12&starting-point-node-id=48%3A12" target="_blank">ConectaOng's</a></li>
+        <li>Análise de dados com Streamlit: <a href="https://github.com/GErnandes/Analise-de-dados-com-Streamlit" target="_blank">Análise do FIFA 23</a></li>
+    </ul>
+
+    <div class="section-title">
+        <h3>Contatos</h3>
+    </div>
+    <p><i class="fas fa-envelope"></i> Email: gabrielernandes155@gmail.com</p>
+
+    <div class="section-title">
+        <h3>Links</h3>
+    </div>
+    <ul>
+        <li><i class="fab fa-github"></i> Github: <a href="https://github.com/GErnandes?tab=repositories" target="_blank">GErnandes</a></li>
+        <li><i class="fab fa-figma"></i> Portfólio no Figma: <a href="https://www.figma.com/proto/NfbMwWxRL6wL7iWQuRTUP6/Curriculo?node-id=32-10&classId=4a6f2062-cc31-4aaf-a778-585bc97606aa&assignmentId=f153f07d-ebe3-4026-9e01-617af0fb26b8&submissionId=c1c58799-11fe-d415-2b23-bafe71d41069" target="_blank">Portfólio Gabriel Ernandes</a></li>
+        <li><i class="fab fa-linkedin"></i> Linkedin: <a href="https://www.linkedin.com/in/gabriel-ernandes-327507303/" target="_blank">Linkedin Gabriel Ernandes</a></li>
+    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2024 Gabriel Ernandes Neves. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
